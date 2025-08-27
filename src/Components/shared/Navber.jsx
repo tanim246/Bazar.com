@@ -44,7 +44,7 @@ const Navber = () => {
           </div>
         </div>
         <div className="navbar-center">
-          <p className=" text-xl">Tanim</p>
+          <p className=" text-xl font-semibold">bAZAR<span className="text-pink-500">.com</span></p>
         </div>
         <div className="navbar-end">
           <button className="btn btn-active w-[100px] btn-secondary  hover:bg-[#c91876] transition">Login</button>
