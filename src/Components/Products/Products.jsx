@@ -35,7 +35,7 @@ const Products = () => {
           <div>
             <form
               onSubmit={clickSearch}
-              className="space-x-4 text-center mt-5 mb-9 "
+              className="flex flex-col sm:flex-row items-center space-y-4 sm:justify-center space-x-4 text-center mt-5 mb-9 "
             >
               <input
                 type="search"
