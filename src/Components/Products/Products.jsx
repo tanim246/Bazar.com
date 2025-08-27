@@ -35,21 +35,19 @@ const Products = () => {
           <div>
             <form
               onSubmit={clickSearch}
-              className="flex flex-col sm:flex-row items-center space-y-4 sm:justify-center space-x-4 text-center mt-5 mb-9 "
+              className="flex flex-col sm:flex-row items-center justify-center gap-4 text-center mt-5 mb-9"
             >
               <input
                 type="search"
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 placeholder="Search your Products"
-                id=""
-                className="border-1 border-gray-400 rounded-lg outline-pink-500 py-1.5 px-2 w-[340px] "
+                className="border border-gray-400 rounded-lg outline-pink-500 py-1.5 px-2 w-[340px]"
               />
               <input
                 type="submit"
                 value="Search"
-                id=""
-                className="rounded-lg border-2  border-pink-500 font-semibold text-white bg-pink-500  py-1.5 px-8  "
+                className="rounded-lg border-2 border-pink-500 font-semibold text-white bg-pink-500 py-1.5 px-8 cursor-pointer"
               />
             </form>
           </div>
