@@ -6,16 +6,19 @@ import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import Contact from "./Components/Contact.jsx";
 
-
-
 const routing = createBrowserRouter([
   {
     path: "/",
     element: <App />,
   },
   {
+    path: "/about",
+    element: <About />,
+  },
+
+  {
     path: "/contact",
-    element: <Contact />
+    element: <Contact />,
   },
 ]);
 

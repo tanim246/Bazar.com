@@ -6,9 +6,9 @@ import Products from "./components/products/products";
 const App = () => {
   return (
     <div>
-      {/* <Navber />
+      <Navber />
       <Banner />
-      <Products /> */}
+      <Products />
     </div>
   );
 };
