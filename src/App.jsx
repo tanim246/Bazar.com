@@ -4,6 +4,8 @@ import Banner from "./components/Banner";
 import Products from "./components/products/products";
 import About from "./Components/Products/About";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
+// import Footer from "./Components/shared/Footer";
 
 const App = () => {
   return (
@@ -12,8 +14,8 @@ const App = () => {
       <Navber />
       <Banner />
       <Products />
-
-      {/* <Contact /> */}
+      <Contact />
+      <Footer />
     </div>
   );
 };
