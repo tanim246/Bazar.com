@@ -25,7 +25,7 @@ const Products = () => {
 
   return (
     <div>
-      <div>
+      <div className="pt-5">
         <div>
           <h1 className="text-4xl text-center">Trending Products</h1>
           <h1 className="text-xl mt-4 text-center">
