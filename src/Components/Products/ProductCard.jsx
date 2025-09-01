@@ -1,7 +1,7 @@
 import React from "react";
 import Cong from "./Cong";
+import { Link } from "react-router";
 // import Cong from "./Cong";
-
 
 const ProductCard = ({ product }) => {
   const { title, description, discount, price, thumbnail } = product;
@@ -41,11 +41,14 @@ const ProductCard = ({ product }) => {
               onClick={() => document.getElementById("my_modal_2").showModal()}
               className="w-full py-3 rounded-xl bg-gradient-to-r from-pink-500 to-pink-600 text-white font-semibold shadow-md"
             >
-              Buy Now
+              Add to cart
             </button>
-            <button className="w-full py-3 rounded-xl border border-pink-500 text-pink-600 font-semibold bg-pink-50">
-              Add To Cart
-            </button>
+            <Link
+              to={`/products-details/${product?.id}`}
+              className="w-full py-3 text-center rounded-xl border border-pink-500 text-pink-600 font-semibold bg-pink-50"
+            >
+              Details
+            </Link>
           </div>
         </div>
       </div>

@@ -9,7 +9,6 @@ const App = () => {
       <Banner />
       <Products />
       <Contact />
-      
     </div>
   );
 };

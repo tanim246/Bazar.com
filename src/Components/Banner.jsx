@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <div>
-      <section className="text-black">
+      <section className="text-black p-5 pt-10">
         {/* Overlay */}
 
         <div className="relative z-10 max-w-screen-xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center">
