@@ -8,6 +8,7 @@ import Products from "../components/products/products";
 import ProductCard from "../components/products/ProductCard";
 import ProductsDetaile from "../Components/ProductsDetails";
 import ProductsDetails from "../Components/ProductsDetails";
+import About from "../Components/Products/About";
 
 export const routes = createBrowserRouter([
   {
@@ -22,10 +23,10 @@ export const routes = createBrowserRouter([
         path: "/products",
         element: <Products />,
       },
-      // {
-      //   path: "/about",
-      //   element: <About />,
-      // },
+      {
+        path: "/about",
+        element: <About />,
+      },
       {
         path: "/contact",
         element: <Contact />,
