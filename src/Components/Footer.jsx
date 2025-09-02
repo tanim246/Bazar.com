@@ -86,7 +86,7 @@ const Footer = () => {
                 </svg>
               </a>
               {/* Twitter */}
-              <a href="#" className="flex items-center p-1">
+              <a href="#" className="flex text-white items-center p-1">
                 <svg
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +96,7 @@ const Footer = () => {
                 </svg>
               </a>
               {/* Instagram */}
-              <a href="#" className="flex items-center p-1">
+              <a href="#" className="flex text-white items-center p-1">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 32 32"
