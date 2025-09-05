@@ -9,8 +9,8 @@ const MainLayout = () => {
     <div>
         <Navber />
         <Outlet />
-        <Contact />
-        <Footer />
+        {/* <Contact /> */}
+        {/* <Footer /> */}
     </div>
   )
 }

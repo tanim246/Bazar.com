@@ -9,6 +9,7 @@ import ProductCard from "../components/products/ProductCard";
 import ProductsDetaile from "../Components/ProductsDetails";
 import ProductsDetails from "../Components/ProductsDetails";
 import About from "../Components/Products/About";
+import Login from "../Components/Login";
 
 export const routes = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ export const routes = createBrowserRouter([
         path: "/products-details/:id",
         element: <ProductsDetails />,
       },
+      {
+        path : "login",
+        element : <Login />,
+      }
     ],
   },
 ]);
