@@ -59,9 +59,9 @@ const Navber = () => {
 
         {/* Navbar End */}
         <div className="navbar-end">
-          <button className="btn btn-active w-[100px] btn-secondary hover:bg-[#c91876] transition">
+          <Link to="/login" className="btn btn-active w-[100px] btn-secondary hover:bg-[#c91876] transition">
             Login
-          </button>
+          </Link>
         </div>
       </div>
     </div>
