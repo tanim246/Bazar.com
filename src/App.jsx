@@ -1,13 +1,11 @@
-import Banner from "./components/Banner";
-import Products from "./components/products/products";
-import Contact from "./Components/Contact";
-import Footer from "./Components/Footer";
-import Navber from "./components/shared/Navber";
+import Banner from "../src/Components/Banner.jsx";
+import Contact from "./Components/Contact.jsx";
+import Product from "./Components/Products/Product.jsx";
 const App = () => {
   return (
     <div>
       <Banner />
-      <Products />
+      <Product />
       <Contact />
     </div>
   );

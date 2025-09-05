@@ -1,8 +1,7 @@
-import React from 'react'
+
 import { Outlet } from 'react-router'
-import Navber from '../components/shared/Navber'
-import Footer from '../Components/Footer'
-import Contact from '../Components/Contact'
+import Navber from '../Components/shared/Navber.jsx'
+
 
 const MainLayout = () => {
   return (

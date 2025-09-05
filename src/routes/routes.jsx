@@ -3,13 +3,10 @@ import { createBrowserRouter } from "react-router";
 import MainLayout from "../layout/MainLayout";
 import App from "../App";
 import Contact from "../Components/Contact";
-// import About from "../Components/About";
-import Products from "../components/products/products";
-import ProductCard from "../components/products/ProductCard";
-import ProductsDetaile from "../Components/ProductsDetails";
 import ProductsDetails from "../Components/ProductsDetails";
 import About from "../Components/Products/About";
 import Login from "../Components/Login";
+import Product from "../Components/Products/Product";
 
 export const routes = createBrowserRouter([
   {
@@ -21,8 +18,8 @@ export const routes = createBrowserRouter([
         element: <App />,
       },
       {
-        path: "/products",
-        element: <Products />,
+        path: "/product",
+        element: <Product />,
       },
       {
         path: "/about",
@@ -37,9 +34,9 @@ export const routes = createBrowserRouter([
         element: <ProductsDetails />,
       },
       {
-        path : "/login",
-        element : <Login />,
-      }
+        path: "/login",
+        element: <Login />,
+      },
     ],
   },
 ]);

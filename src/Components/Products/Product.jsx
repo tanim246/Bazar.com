@@ -2,7 +2,7 @@ import axios from "axios";
 import ProductCard from "./ProductCard";
 import { useEffect, useState } from "react";
 
-const Products = () => {
+const Product = () => {
   const [products, setProducts] = useState([]);
   const [search, setSearch] = useState([]);
   useEffect(() => {
@@ -62,4 +62,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default Product;

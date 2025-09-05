@@ -4,7 +4,7 @@ const Navber = () => {
   const items = [
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
-    { name: "Products", path: "/products" },
+    { name: "Product", path: "/product" },
     { name: "Contact", path: "/contact" },
   ];
 
